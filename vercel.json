@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd voss-studio && npm install && npm run build",
+  "outputDirectory": "voss-studio/dist",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
